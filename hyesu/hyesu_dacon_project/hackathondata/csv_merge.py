@@ -2,8 +2,8 @@ import csv
 import glob
 import pandas as pd
 
-path = './corona_data_time_province/'
-merge_path = './TimeProvince.csv'
+path = './park/'
+merge_path = './park.csv'
 
 # merge대상 파일을 확인
 file_list = glob.glob(path + '*')
